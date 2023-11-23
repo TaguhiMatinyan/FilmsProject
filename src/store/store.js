@@ -7,5 +7,4 @@ const store = configureStore({
         filmsData: filmsSlice
     }
 })
-
 export default store
