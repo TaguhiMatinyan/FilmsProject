@@ -1,0 +1,26 @@
+.genres_films {
+    padding: 20px 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+}
+
+.genres_films_light {
+    background-color: white;
+}
+
+.more_btn {
+    width: 200px;
+    padding: 5px 16px;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.more_btn:hover {
+    background-color: black;
+    color: white;
+}

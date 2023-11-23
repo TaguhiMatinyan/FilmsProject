@@ -1,0 +1,30 @@
+nav {
+    padding: 20px 8%;
+    background-color: black;
+
+}
+
+.nav_light{
+    background-color: white;
+}
+
+.genres_div {
+    padding: 0 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    grid-template-columns: repeat(8, 110px);
+}
+
+@media screen and (max-width: 1035px) {
+    .genres_div{
+        grid-template-columns: repeat(4, 110px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .genres_div{
+        grid-template-columns: repeat(4, 80px);
+    }
+}

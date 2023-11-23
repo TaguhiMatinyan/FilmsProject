@@ -1,0 +1,61 @@
+.result_div{
+    width: 100%;
+    max-height: 300px;
+    position: absolute;
+    top: 35px;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid white;
+    border-top: none;
+    box-shadow: black 2px 2px 5px;
+    overflow: hidden;
+    overflow-y: auto;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 2;
+}
+
+.result_div_light{
+    background-color: #fff;
+}
+
+.searched_film{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.searched_film:hover{
+    background-color: white;
+    color: black;
+}
+
+.searched_film img{
+    width: 20%;
+}
+
+.searched_film_light{
+    color: black;
+}
+
+.searched_film_light:hover{
+    background-color: black;
+    color: white;
+}
+
+.result_div::-webkit-scrollbar{
+    width: 7px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.result_div::-webkit-scrollbar-thumb{
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 10px;
+}

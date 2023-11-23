@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.header_light {
+    background-color: white;
+}
+
+.header_part_1 {
+    padding: 20px 8%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    border-bottom: 1px solid white;
+    color: white;
+    position: static;
+    z-index: 2;
+    box-shadow: black 1px 1px 5px;
+}
+
+.actions_div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 580px) {
+    .header_part_1 {
+        flex-direction: column;
+    }
+}
